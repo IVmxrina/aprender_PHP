@@ -1,0 +1,43 @@
+
+
+/* index.html */
+
+.container{
+    margin: 0% 15%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.H1-01{
+    display: inline-block;
+    
+}
+
+.button01{
+    float: right;
+
+    border: 2px solid black;
+    background-color: antiquewhite;
+    border-radius: 1px;
+
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 10px;
+    padding: 5px 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    display: flex;
+    
+    transition: all 0.2s;
+} .button01:hover{ 
+    border: 2px solid antiquewhite;
+    background-color: black;
+    color: antiquewhite;
+    cursor: pointer;
+    resize: none;
+   
+}
+
+
+
+
+/* fin index.html */
