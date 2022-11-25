@@ -11,9 +11,11 @@ $Color = $_POST['Color'];
 
 // 2º Comprobamos que se guardan las variables introducidas en el formulario al darle a submit.
 
-echo "Esto es para comprobar que las variables se han introducido con exito.";
+echo "Esto es un 'echo' para comprobar que las variables se han introducido con exito. <br><br>";
 
-
+echo "La marca introducida es " . $Marca . "<br>";
+echo "El modelo introducida es " . $Modelo . "<br>";
+echo "EL color introducida es " . $Color;
 
 
 
