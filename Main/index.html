@@ -12,33 +12,32 @@
     <link rel="stylesheet" href="/Style/index.css">
     <title>Puerto Pequeño</title>
 </head>
-<body>
-<div class="container">
-
-
+<body>   
     <div class="header">
-        <h1 class="H1-01">Los coches</h1>
-        <a  href="inicio.html"><button class="button01">Inicio de sesion</button></a>
-        <a  href="formulario.html"><button class="button01">Registro</button></a>
-
+        <a href="index.html"><h1 class="H1-01">Sublime Cars</h1></a>
+        <a href="inicio.html"><button class="butRequest">Inicio de sesion</button></a>
+        <a href="registro.html"><button class="butRequest">Registro</button></a>
+        <a href="/Main/Coches/FormTuCoche.html"><button class="butRequest">Coches</button></a>
     </div>
-
-    <div class="formulario">
-        <form action="/Php/main.php" method="post">
-            <h1>¿Cual es el coche de tus sueños?</h1>
-
-            <label for="Marca">Marca</label><br>
-                <input type="text" id="Marca" name="Marca"><br>
-                
-            <label for="Modelo">Modelo</label><br>
-                <input type="text" id="Modelo" name="Modelo"><br>
-
-            <label for="Color">Color</label><br>
-                <input type="text" id="Color" name="Color"><br>
-
-            <input type="submit" value="Franchescooo">
-        </form>
+<div class="container">
+    <div class="info">
+        <table class="table01">
+            <tr>
+                <td class="t01">Resistencia y cuidado por el diseño</td>
+                <td rowspan="2"><strong><hr class="space"></strong></td>
+                <td class="t01">Potencia, emoción y deportividad</td>
+                <td rowspan="2"><strong><hr class="space"></strong></td>
+                <td class="t01">Fiabilidad, elegancia y comodidad</td>
+            </tr>
+            <tr>
+                <td><a href="catalogoJapones.html"><button class="butCatalogo">Coches japoneses</button></a> </td>
+                <td><a href="catalogoAmericano.html"><button class="butCatalogo">Coches americanos</button></a></td>
+                <td><a href="catalogoEuropeo.html"><button class="butCatalogo">Coches europeos</button></a></td>
+            </tr>
+        </table>
+        <img class="foto01-ford" src="/Style/portada_coche.jpg" alt="Ford GT">
     </div>
+    
 
 
 
